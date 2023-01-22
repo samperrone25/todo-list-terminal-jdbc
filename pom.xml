@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.jbdcpractice</groupId>
-  <artifactId>jbdcpractice</artifactId>
+  <groupId>com.jdbcpractice</groupId>
+  <artifactId>jdbcpractice</artifactId>
   <version>1.0</version>
 
-  <name>jbdcpractice</name>
+  <name>jdbcpractice</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -66,7 +66,7 @@
               <manifest>
                 <addClasspath>true</addClasspath>
                 <classpathPrefix>lib/</classpathPrefix>
-                <mainClass>com.jbdcpractice.App</mainClass>
+                <mainClass>com.jdbcpractice.App</mainClass>
               </manifest>
             </archive>
           </configuration>

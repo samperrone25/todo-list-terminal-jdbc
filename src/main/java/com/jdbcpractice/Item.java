@@ -1,4 +1,4 @@
-package com.jbdcpractice;
+package com.jdbcpractice;
 
 public class Item {
     private String title;

@@ -1,4 +1,4 @@
-package com.jbdcpractice;
+package com.jdbcpractice;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
@@ -20,9 +20,8 @@ public class App
         Properties props = new Properties();
         props.setProperty("user", "postgres");
         props.setProperty("password", "postgres");
-        String url = "jdbc:postgresql://localhost:5432/";
+        String url = "jdbc:postgresql://localhost:5432/jdbcDatabase";
         Connection conn = DriverManager.getConnection(url, props); // throws SQLException
-
         ItemService itemService = new ItemService(conn);
 
         int inputInt;

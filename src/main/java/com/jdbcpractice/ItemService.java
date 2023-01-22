@@ -1,4 +1,4 @@
-package com.jbdcpractice;
+package com.jdbcpractice;
 
 import java.sql.*;
 import java.time.Instant;
