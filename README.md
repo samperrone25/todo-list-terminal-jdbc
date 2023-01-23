@@ -2,4 +2,4 @@
 
 A terminal program that manages a todo list using a local postgresql server
 
-Architecture: Terminal <----> program <----> local pgsql
+Architecture: Terminal <---(java buffered reader)---> program <---(jdbc)--> local pgsql
